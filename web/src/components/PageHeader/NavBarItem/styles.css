@@ -1,4 +1,6 @@
 .page-link-item {
+  padding: 0 1.6rem;
+  text-decoration: none;
   transition: opacity 0.2s;
 }
 
@@ -7,5 +9,11 @@
 }
 
 .page-link-item p {
-  font: 700 1.6rem Archivo;
+  font: 400 1.6rem Archivo;
+  color: var(--color-text-title);
+}
+
+.page-title--modified {
+  text-decoration: underline;
+  font-weight: bold;
 }

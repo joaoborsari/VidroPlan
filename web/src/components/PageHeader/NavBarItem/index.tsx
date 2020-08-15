@@ -3,15 +3,17 @@ import { Link } from 'react-router-dom';
 
 import './styles.css'
 
-export interface NavBarItemProps{
-  itemName : string,
-  link: string
-}
+import { NavBarItensProps } from '../constants';
 
-export const NavBarItem: React.FC<NavBarItemProps> = (props) => {
+export const NavBarItem: React.FC<NavBarItensProps> = (props) => {
+  const isCurrentPageSelected = window.location.pathname === props.link;
   return (
     <Link to={props.link} className="page-link-item">
-      <p>{props.itemName}</p>
+      <p 
+        className={`page-title${isCurrentPageSelected ? "--modified" : ""}`}
+      >
+        {props.title}
+      </p>
     </Link>
   );
 }

@@ -1,9 +1,15 @@
 import React from "react";
-import NavBar from "../../components/PageHeader/NavBar";
+
+import homeImg from '../../assets/images/home.webp'
+import { Layout } from "../../components/Layout";
 
 function Landing() {
   return (
-    <NavBar></NavBar>
+    <Layout>
+      <div className="landing">
+        <img src={homeImg} alt="Home" className="home-images" />
+      </div>
+    </Layout>
   );
 }
 

@@ -1,12 +1,17 @@
 import React from 'react';
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Landing from './pages/Landing';
+import NavBar from './components/PageHeader/NavBar';
 
 function Routes() {
   return (
     <BrowserRouter>
-      <Route path="/" exact component={Landing} />
+      <NavBar />
+      <Switch>
+        <Route path="/" exact component={ Landing } />
+      </Switch>
+      
     </BrowserRouter>
   )
 }
