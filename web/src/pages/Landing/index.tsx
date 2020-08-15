@@ -1,10 +1,8 @@
 import React from "react";
-import PageHeader from "../../components/PageHeader";
+import NavBar from "../../modules/PageHeader/components/NavBar";
 
 function Landing() {
-  return (
-    <PageHeader></PageHeader>
-  );
+  return <NavBar />;
 }
 
 export default Landing;
