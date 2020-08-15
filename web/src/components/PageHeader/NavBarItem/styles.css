@@ -1,0 +1,11 @@
+.page-link-item {
+  transition: opacity 0.2s;
+}
+
+.page-link-item:hover {
+  opacity: 0.6;
+}
+
+.page-link-item p {
+  font: 700 1.6rem Archivo;
+}

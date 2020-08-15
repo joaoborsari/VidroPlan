@@ -1,0 +1,39 @@
+.page-header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  background-color: var(--color-background);
+}
+
+.page-header .top-bar-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 0;
+  align-items: center;
+
+}
+
+.page-header .top-bar-container .logo {
+  color: var(--color-primary);
+  padding: 0 3.2rem;
+}
+
+.page-header .top-bar-container .top-bar-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (min-width: 700px) {
+  .page-header {
+      height: 340px;
+  }
+
+  .page-header .top-bar-container {
+      max-width: 1100px;
+  }
+}
