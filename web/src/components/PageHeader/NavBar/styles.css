@@ -6,6 +6,8 @@
   margin: 0 auto;
   background-color: var(--color-background);
   border-style: none none outset none;
+  height: 6.8rem;
+  align-items: center;
 }
 
 .top-bar-container {
@@ -36,19 +38,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
-
-.whatsapp {
-  display: flex;
-  justify-content: space-between;
-}
-
-.whatsapp img {
-  margin: 0 1rem;
-}
-
-.whatsapp a {
-  text-decoration: none;
 }
 
 /* @media (min-width: 700px) {

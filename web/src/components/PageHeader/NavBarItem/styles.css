@@ -9,11 +9,10 @@
 }
 
 .page-link-item p {
-  font: 400 1.6rem Archivo;
   color: var(--color-text-title);
 }
 
 .page-title--modified {
   text-decoration: underline;
-  font-weight: bold;
+  font: 700 1.8rem Poppins;
 }

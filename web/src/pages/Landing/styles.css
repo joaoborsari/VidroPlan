@@ -1,5 +1,10 @@
 .landing {
+  width: 100vw;
+    height: 100vw;
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.landing img {
+  width: 100%;
 }
