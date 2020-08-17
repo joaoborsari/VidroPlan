@@ -1,13 +1,18 @@
 .whatsapp {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   text-decoration: none;
-  color: var(--color-primary-dark);
   transition: opacity 0.2s;
+  color: var(--color-primary-dark);
+  margin-left: 2rem;
 }
 
-.whatsapp img {
-  margin: 0 1rem;
+.whatsapp-icon {  
+  color: var(--color-primary-light);
+  margin: 0 0.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .whatsapp:hover {

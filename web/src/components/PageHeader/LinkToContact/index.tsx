@@ -1,8 +1,8 @@
 import React from 'react';
 
-import whatsappIcon from '../../../assets/images/icons/whatsapp.svg'
-
 import './styles.css';
+
+import { RiWhatsappLine } from 'react-icons/ri';
 
 export const LinkToContact = () => {
   return (
@@ -10,7 +10,7 @@ export const LinkToContact = () => {
       href="https://wa.me/+5516997928737"
       className="whatsapp"
     >
-        <img src={whatsappIcon} alt="Whatsapp"/>
+        <RiWhatsappLine className="whatsapp-icon" />
         <p>(16) 99792-8737</p>
     </a>
   );
