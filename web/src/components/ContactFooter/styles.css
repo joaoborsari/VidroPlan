@@ -39,3 +39,8 @@
   object-fit: cover;
   max-height: 130px;
 }
+
+.social-medias {
+  display: flex;
+  justify-content: space-between;
+}

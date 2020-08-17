@@ -2,7 +2,9 @@ import React from 'react';
 
 import './styles.css';
 
-import mapsImg from '../../assets/images/maps.png';
+import mapsImg from '../../assets/images/location.png';
+import { RiWhatsappLine } from "react-icons/ri";
+import { LinkToWhatsapp, LinkToFacebook, LinkToInstagram } from '../SocialMediaContactLink';
 
 export const ContactFooter = () => {
   return (
@@ -16,13 +18,16 @@ export const ContactFooter = () => {
       </div>
       <div className="coordinates">
         <div className="location">
-          <img src={mapsImg} alt="Location"></img>
+          <a title="Abrir endereço no Google maps" href="https://www.google.fr/maps/place/Av.+Maria+Antonia+Camargo+de+Oliveira,+1997,+Araraquara+-+SP,+14801-260,+Br%C3%A9sil/@-21.7881266,-48.174597,17z/data=!3m1!4b1!4m5!3m4!1s0x94b8f3e39ce7edd9:0xc77294e0db8fd7ce!8m2!3d-21.7881266!4d-48.1724083?hl=fr&authuser=0">
+            <img src={mapsImg} alt="Location"></img>
+          </a>
         </div>
       </div>
       <div className="social-medias">
         <h2>Você também pode nos encontrar em:</h2>
-        <p>VidroPlan Araraquara</p>
-        <p>VidroPlan Araraquara</p>
+        <LinkToWhatsapp />
+        <LinkToFacebook />
+        <LinkToInstagram />
       </div>
     </div>
   );
