@@ -1,0 +1,10 @@
+.landing {
+  width: 100vw;
+    height: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.landing img {
+  width: 100%;
+}

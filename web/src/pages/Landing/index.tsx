@@ -1,9 +1,15 @@
 import React from "react";
-import PageHeader from "../../components/PageHeader";
+
+import homeImg from '../../assets/images/home.webp'
+import { Layout } from "../../components/Layout";
 
 function Landing() {
   return (
-    <PageHeader></PageHeader>
+    <Layout>
+      <div className="landing">
+        <img src={homeImg} alt="Home" className="home-images" />
+      </div>
+    </Layout>
   );
 }
 

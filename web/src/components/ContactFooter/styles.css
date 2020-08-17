@@ -1,0 +1,41 @@
+.contact-footer-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr 3fr;
+  grid-template-areas: "contact coordinates social-medias";
+  background-color: var(--color-box-base);
+  border-style: outset none none none;
+  padding: 1.2rem 0;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.coordinates {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.social-medias {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.social-medias h2 {
+  text-align: center;
+}
+
+.location img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 130px;
+}

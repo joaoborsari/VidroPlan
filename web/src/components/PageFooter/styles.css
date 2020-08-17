@@ -1,0 +1,26 @@
+.page-footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: flex-end;
+  margin: 0 auto;
+  background-color: var(--color-box-footer);
+  border-style: solid none none none;
+  height: 6.8rem;
+}
+
+.botton-bar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright p {
+  font: 400 1.2rem Poppins;
+}

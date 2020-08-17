@@ -1,0 +1,16 @@
+.whatsapp {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: var(--color-primary-dark);
+  transition: opacity 0.2s;
+}
+
+.whatsapp img {
+  margin: 0 1rem;
+}
+
+.whatsapp:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
