@@ -4,7 +4,7 @@ import './styles.css';
 
 import { NavBarItem } from '../NavBarItem';
 import { navBarItems, NavBarItensProps } from '../constants/index'
-import { LinkToContact } from '../../LinkToContact';
+import { LinkToContact } from '../LinkToContact';
 
 function NavBar() {
   return (
