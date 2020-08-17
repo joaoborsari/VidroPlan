@@ -1,0 +1,65 @@
+.whatsapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  color: var(--color-primary-dark);
+  margin-left: 2rem;
+}
+
+.whatsapp-icon {  
+  color: #25d366;
+  margin: 0 0.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.whatsapp:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+.facebook {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  color: var(--color-primary-dark);
+  margin-left: 2rem;
+}
+
+.facebook-icon {  
+  color: #1877f2;
+  margin: 0 0.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.facebook:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+.instagram {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  color: var(--color-primary-dark);
+  margin-left: 2rem;
+}
+
+.instagram-icon {  
+  color: #7232bd;
+  margin: 0 0.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.instagram:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}

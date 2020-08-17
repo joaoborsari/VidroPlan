@@ -3,8 +3,8 @@ import React from 'react';
 import './styles.css';
 
 import { NavBarItem } from '../NavBarItem';
-import { navBarItems, NavBarItensProps } from '../constants/index'
-import { LinkToContact } from '../LinkToContact';
+import { navBarItems, NavBarItensProps } from '../constants/index';
+import { LinkToWhatsapp } from '../../SocialMediaContactLink';
 
 function NavBar() {
   return (
@@ -24,7 +24,7 @@ function NavBar() {
           </div>
           {/* link to contact */}
           <div className="top-bar-contact">
-            <LinkToContact />
+            <LinkToWhatsapp />
           </div>
         </div>
       </div>
