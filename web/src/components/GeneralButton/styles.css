@@ -1,0 +1,21 @@
+
+.general-button {
+  border-radius: 0.6rem;
+  background-color: var(--color-primary-light);
+  border: 0;
+  height: 3rem;
+  margin: 2rem 0;
+  transition: background-color 0.2s;
+}
+
+.general-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.button-link {
+  padding: 1rem 1rem;
+  font: 700 1.6rem Archivo;
+  text-decoration: none;
+  color: var(--color-button-text);
+}
