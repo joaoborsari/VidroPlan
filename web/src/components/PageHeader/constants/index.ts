@@ -20,8 +20,8 @@ export const navBarItems = [
     title: "Galeria",
     link: "/galery",
   },
-  {
-    title: "Contato",
-    link: "/contact",
-  },
+  // {
+  //   title: "Contato",
+  //   link: "/contact",
+  // },
 ];
