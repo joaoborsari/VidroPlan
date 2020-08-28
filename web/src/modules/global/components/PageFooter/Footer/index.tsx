@@ -2,10 +2,11 @@ import React from 'react';
 
 import './styles.css';
 
-import { navBarItems, NavBarItensProps } from '../PageHeader/constants';
-import { NavBarItem } from '../PageHeader/NavBarItem';
+import { navBarItems, NavBarItensProps } from '../../PageHeader/constants';
+import { NavBarItem } from '../../PageHeader/components/NavBarItem';
 
-export const PageFooter = () => {
+
+export const Footer = () => {
   return (
     <div className="page-footer">
       <div className="botton-bar-links">
