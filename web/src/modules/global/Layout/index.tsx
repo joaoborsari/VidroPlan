@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from 'react';
 
 import './styles.css';
-import { PageFooter } from '../PageFooter';
-import NavBar from '../PageHeader/NavBar';
-import { ContactFooter } from '../ContactFooter';
+import NavBar from '../components/PageHeader/NavBar';
+import { ContactFooter } from '../components/PageFooter/ContactFooter';
+import { Footer } from '../components/PageFooter/Footer';
 
 export const Layout: FunctionComponent<any> = (props) => {
   return (
@@ -16,7 +16,7 @@ export const Layout: FunctionComponent<any> = (props) => {
         </div>
         <div className="footer">
           <ContactFooter />
-          <PageFooter />
+          <Footer />
         </div>
     </div>
   );

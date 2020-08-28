@@ -3,8 +3,8 @@ import React from "react";
 import './styles.css';
 
 import homeImg from '../../assets/images/frontStore.jpeg';
-import { Layout } from "../../components/Layout";
-import { Intro } from "../../components/Intro";
+import { Layout } from "../../modules/global/Layout";
+import { Intro } from "../../modules/LandingPage/Intro";
 
 function Landing() {
   return (

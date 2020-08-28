@@ -2,8 +2,8 @@ import React from 'react';
 
 import './styles.css';
 
-import mapsImg from '../../assets/images/location.png';
-import { LinkToFacebook, LinkToInstagram } from '../SocialMediaContactLink';
+import mapsImg from '../../../../../assets/images/location.png';
+import { LinkToFacebook, LinkToInstagram } from '../../../../shared/SocialMediaContactLink';
 
 export const ContactFooter = () => {
   return (

@@ -2,8 +2,7 @@ import React from "react";
 
 import './styles.css';
 
-import { GeneralButton } from "../../components/GeneralButton";
-
+import { GeneralButton } from "../../shared/GeneralButton";
 
 export const Intro = () => {
   return (
