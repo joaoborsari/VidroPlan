@@ -1,0 +1,36 @@
+.landing-infos {
+  margin: 4rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info-card {
+  width: 25%;
+  border-style: dashed;
+  border-color: var(--color-line-in-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.info-card-title {
+  display: flex;
+  flex-direction: row;
+  color: var(--color-text-title);
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+
+.title-icon {
+  color:var(--color-text-title);
+  margin: 0 0.6rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.info-card p {
+  color: var(--color-text-complement);
+  text-align: center;
+}

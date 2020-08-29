@@ -6,6 +6,7 @@ import homeImg from '../../assets/images/frontStore.jpeg';
 import { Intro } from "../../modules/LandingPage/Intro";
 import { LandingProducts } from "../../modules/LandingPage/LandingProducts";
 import { Layout } from "../../modules/global/Layout";
+import { LandingInfos } from "../../modules/LandingPage/LandingInfos";
 
 function Landing() {
   return (
@@ -20,6 +21,8 @@ function Landing() {
           <Intro />
           <hr/>
           <LandingProducts />
+          <hr/>
+          <LandingInfos />
           <hr/>
         </div>
         

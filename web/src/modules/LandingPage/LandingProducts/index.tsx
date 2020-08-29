@@ -25,7 +25,7 @@ export const LandingProducts = () => {
         />
 
       </div>
-        <GeneralButton title="Conheça mais sobre nossos produtos!" link="/products" />
+        <GeneralButton title="Saiba mais!" link="/products" />
     </div>
   );
 }
