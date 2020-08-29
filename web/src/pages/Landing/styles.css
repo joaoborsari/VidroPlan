@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+hr {
+  margin: 0 2rem;
+}
+
 .landing-welcome-images {
   width: 100%;
 }

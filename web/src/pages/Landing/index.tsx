@@ -3,8 +3,9 @@ import React from "react";
 import './styles.css';
 
 import homeImg from '../../assets/images/frontStore.jpeg';
-import { Layout } from "../../modules/global/Layout";
 import { Intro } from "../../modules/LandingPage/Intro";
+import { LandingProducts } from "../../modules/LandingPage/LandingProducts";
+import { Layout } from "../../modules/global/Layout";
 
 function Landing() {
   return (
@@ -16,10 +17,10 @@ function Landing() {
         </div>
         
         <div className="landing-main-content">
-
           <Intro />
           <hr/>
-
+          <LandingProducts />
+          <hr/>
         </div>
         
       </div>
