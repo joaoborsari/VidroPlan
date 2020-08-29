@@ -14,7 +14,7 @@ export const ContactFooter = () => {
         <p>Av Antonia Camargo de Oliveira, 1997</p>
         <p>Centro | Araraquara | SP</p>
         <p>(16) 3336-9878</p>
-        <p>vidroplan2012@hotmail.com</p>
+        <p><a href="mailto:vidroplan2012@hotmail.com"  title="Enviar email">vidroplan2012@hotmail.com</a></p>
       </div>
 
       <div className="coordinates">
