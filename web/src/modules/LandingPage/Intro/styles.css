@@ -13,8 +13,15 @@
   max-width: 80%;
 }
 
+.intro-description {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .intro p {
+  margin: 0.5rem 0;
   text-align: center;
-  margin: 1rem;
   max-width: 55%;
 }

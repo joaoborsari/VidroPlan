@@ -1,5 +1,6 @@
 :root {
   --color-background: #fdfdfd;
+  --color-background-in-trasparent: #fdfdfdf4;
   --color-primary-lighter: #64df8f;
   --color-primary-light: #24ad53;
   --color-primary: #3f7d56;
@@ -52,6 +53,17 @@ textarea {
   width: 90vw;
   max-width: 700px;
 } */
+
+.element-divider {
+  margin: 0 2rem;
+  border-top: 0.5px solid var(--color-primary-dark);
+}
+
+.title-divider {
+  margin: 1rem 0;
+  border-top: 5px solid var(--color-primary-dark);
+  width: 15%;
+}
 
 @media (min-width: 700px) {
   :root {

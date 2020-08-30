@@ -9,6 +9,7 @@ export const LandingProducts = () => {
   return (
     <div className="landing-products">
       <h1>Conheça nossos produtos</h1>
+      <hr className="title-divider" />
       <div className="products">
 
         <ProductCard 

@@ -7,7 +7,6 @@ import { Intro } from "../../modules/LandingPage/Intro";
 import { LandingProducts } from "../../modules/LandingPage/LandingProducts";
 import { Layout } from "../../modules/global/Layout";
 import { LandingInfos } from "../../modules/LandingPage/LandingInfos";
-import { Partners } from "../../modules/shared/Partners";
 
 function Landing() {
   return (
@@ -20,7 +19,7 @@ function Landing() {
         
         <div className="landing-main-content">
           <Intro />
-          <hr/>
+          <hr className="element-divider"/>
           <LandingProducts />
           <hr/>
           <LandingInfos />
