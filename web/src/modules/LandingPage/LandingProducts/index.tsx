@@ -8,7 +8,7 @@ import { ProductCard } from '../../shared/ProductCard';
 export const LandingProducts = () => {
   return (
     <div className="landing-products">
-      <h1>Conheça nossos produtos!</h1>
+      <h1>Conheça nossos produtos</h1>
       <div className="products">
 
         <ProductCard 

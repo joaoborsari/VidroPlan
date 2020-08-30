@@ -16,6 +16,10 @@
   text-align: center;
 }
 
+.contact h1 {
+  color: var(--color-text-title);
+}
+
 .contact p a {
   text-decoration: none;
   transition: opacity 0.2s;
@@ -42,6 +46,7 @@
 }
 
 .social-medias h2 {
+  color: var(--color-text-title);
   text-align: center;
 }
 

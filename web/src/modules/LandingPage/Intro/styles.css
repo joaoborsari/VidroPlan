@@ -8,10 +8,13 @@
 
 .intro h1 {
   text-align: center;
+  font-size: 4rem;
+  color: var(--color-text-title);
+  max-width: 80%;
 }
 
 .intro p {
   text-align: center;
   margin: 1rem;
-  width: 55%;
+  max-width: 55%;
 }
