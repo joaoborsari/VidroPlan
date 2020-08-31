@@ -47,7 +47,7 @@ export const ContactFooter = () => {
             <IoIosTime className="footer-icon" />
             <div className="open-time">
               <p>Segunda à Sexta - Das 8h às 18h</p>
-              <p>Sábado - Das 8h às 12h</p>
+              <p>Sábado - Das 8h às 13h</p>
             </div>
           </div>
         </div>

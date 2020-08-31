@@ -22,9 +22,11 @@
   align-self: center;
 }
 
-.developer {
-  margin-left: 0.4rem;
+.developer a {
+  margin-left: 0.3rem;
   font-style: italic;
+  text-decoration: none;
+  color: var(--color-button-text);
 }
 
 .page-footer p {
