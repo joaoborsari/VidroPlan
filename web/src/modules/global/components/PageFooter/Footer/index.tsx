@@ -2,22 +2,17 @@ import React from 'react';
 
 import './styles.css';
 
-import { navBarItems, NavBarItensProps } from '../../PageHeader/constants';
-import { NavBarItem } from '../../PageHeader/components/NavBarItem';
-
-
 export const Footer = () => {
   return (
     <div className="page-footer">
-      <div className="botton-bar-links">
-        {
-          navBarItems.map((item: NavBarItensProps) => {
-            return <NavBarItem key={ item.title } title={item.title} link={item.link} />
-          })
-        }
-      </div>
       <div className="copyright">
-        <p>©Copyright 2020 VidroPlan</p>
+        <p>© 2020 VidroPlan | CNPJ 45.277.209/0001-35</p>
+      </div>
+      <div className="developed-by">
+        <p>Desenvolvido por </p>
+        <p className="developer">
+          <a href="https://www.linkedin.com/in/jo%C3%A3o-borsari/">João Borsari</a>
+        </p>
       </div>
     </div>
   );

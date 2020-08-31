@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 import { RiWhatsappLine } from 'react-icons/ri';
-import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
+import { FaFacebookSquare, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 export const LinkToWhatsapp = () => {
   return (
@@ -21,11 +21,10 @@ export const LinkToFacebook = () => {
   return (
     <a 
       href="https://www.facebook.com/"
-      className="facebook"
+      className="social-media"
       title="Abrir no Facebook"
     >
-        <FaFacebookSquare className="facebook-icon" />
-        <p>VidroPlan Araraquara</p>
+        <FaFacebookSquare className="social-media-icon" />
     </a>
   );
 }
@@ -34,11 +33,22 @@ export const LinkToInstagram = () => {
   return (
     <a 
       href="https://www.instagram.com/"
-      className="instagram"
+      className="social-media"
       title="Abrir no Instagram"
     >
-        <FaInstagram className="instagram-icon" />
-        <p>VidroPlan Araraquara</p>
+        <FaInstagram className="social-media-icon" />
+    </a>
+  );
+}
+
+export const LinkToLinkedin = () => {
+  return (
+    <a 
+      href="https://www.linkedin.com/"
+      className="social-media"
+      title="Abrir no Linkedin"
+    >
+        <FaLinkedin className="social-media-icon" />
     </a>
   );
 }
