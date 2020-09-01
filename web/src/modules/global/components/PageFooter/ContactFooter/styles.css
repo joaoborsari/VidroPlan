@@ -6,6 +6,36 @@
   border-style: outset none none none;
   border-width: 0.5px;
   padding: 1.2rem 0;
+  position: relative;
+}
+
+.shape-top {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr;
+  top: -40px;
+}
+
+.shape-top svg {
+  width: calc(500% + 1.3px);
+  height: 40px;
+  display: block;
+  position: relative;
+  left: -150%;
+  overflow: hidden;
+  transform: rotateZ(180deg);
+}
+
+.shape-top-fill {
+  fill: #2e6f45;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
 .contact-footer-container .title-divider {

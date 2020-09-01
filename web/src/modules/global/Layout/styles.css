@@ -8,11 +8,12 @@
 }
 
 .main-content {
-  margin-top: 66px;
+  /* margin-top: 66px; */
   width: 100%;
 }
 
 .header {
   position: fixed;
   top: 0;
+  z-index: 1;
 }

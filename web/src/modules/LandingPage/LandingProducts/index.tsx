@@ -13,16 +13,19 @@ export const LandingProducts = () => {
       <div className="products">
 
         <ProductCard 
-          title="Produto 1"
+          title="Box e Vidros"
           description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          image="boxVidro.png"
         />
         <ProductCard  
-          title="Produto 2"
+          title="Películas de vidro"
           description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          image="insufilm.jpg"
         />
         <ProductCard  
-          title="Produto 3"
+          title="Quadros e Molduras"
           description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          image="quadros.jpg"
         />
 
       </div>
