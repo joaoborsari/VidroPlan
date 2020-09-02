@@ -49,7 +49,7 @@
 }
 
 .elementor-shape-fill {
-  fill: #fff;
+  fill: var(--color-background);
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
