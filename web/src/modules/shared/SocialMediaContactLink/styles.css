@@ -6,6 +6,7 @@
   transition: opacity 0.2s;
   color: var(--color-primary-dark);
   margin-left: 2rem;
+  white-space: nowrap;
 }
 
 .whatsapp-icon {  

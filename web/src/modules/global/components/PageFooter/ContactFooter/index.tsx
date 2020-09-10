@@ -20,54 +20,56 @@ export const ContactFooter = () => {
           <path className="shape-top-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
         </svg>
       </div>
-      
-      <div className="contact footer-container">
-        <h1>Contatos</h1>
-        <hr className="title-divider" />
-        <div className="contact-infos">
-        <div className="footer-info">
-            <FaPhoneAlt className="footer-icon" />
-            <p>(16) 3336-9878</p>
-          </div>
-          <div className="footer-info">
-            <RiWhatsappLine className="footer-icon" />
-            <p>(16) 99792-8737</p>
-          </div>
-          <div className="footer-info">
-            <MdEmail className="footer-icon" />
-            <a title="Enviar email" href="mailto:vidroplan2012@hotmail.com">vidroplan2012@hotmail.com</a>
-          </div>
-        </div>
-      </div>
 
-      <div className="found-us footer-container">
-        <h1>Como nos encontrar?</h1>
-        <hr className="title-divider" />
-        <div className="contact-infos">
-          <div className="address footer-info">
-            <MdLocationOn className="footer-icon" />
-            <a title="Abrir endereço no Google maps" href="https://www.google.fr/maps/place/Av.+Maria+Antonia+Camargo+de+Oliveira,+1997,+Araraquara+-+SP,+14801-260,+Br%C3%A9sil/@-21.7881266,-48.174597,17z/data=!3m1!4b1!4m5!3m4!1s0x94b8f3e39ce7edd9:0xc77294e0db8fd7ce!8m2!3d-21.7881266!4d-48.1724083?hl=fr&authuser=0">
-              <p>Av Antonia Camargo de Oliveira, 1997</p>
-              <p>Centro | Araraquara | SP</p>
-            </a>
-          </div>
-          <div className="opening footer-info">
-            <IoIosTime className="footer-icon" />
-            <div className="open-time">
-              <p>Segunda à Sexta - Das 8h às 18h</p>
-              <p>Sábado - Das 8h às 13h</p>
+      <div className="footer-container">
+        <div className="contact footer-container-item">
+          <h1>Contatos</h1>
+          <hr className="title-divider" />
+          <div className="contact-infos">
+            <div className="footer-info">
+              <FaPhoneAlt className="footer-icon" />
+              <p>(16) 3336-9878</p>
+            </div>
+            <div className="footer-info">
+              <RiWhatsappLine className="footer-icon" />
+              <p>(16) 99792-8737</p>
+            </div>
+            <div className="footer-info">
+              <MdEmail className="footer-icon" />
+              <a title="Enviar email" href="mailto:vidroplan2012@hotmail.com">vidroplan2012@hotmail.com</a>
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="social-medias footer-container">
-        <h2>Siga nossas redes sociais!</h2>
-        <hr className="title-divider" />
-        <div className="links">
-          <LinkToFacebook />
-          <LinkToInstagram />
-          <LinkToLinkedin />
+        <div className="found-us footer-container-item">
+          <h1>Como nos encontrar?</h1>
+          <hr className="title-divider" />
+          <div className="contact-infos">
+            <div className="address footer-info">
+              <MdLocationOn className="footer-icon" />
+              <a title="Abrir endereço no Google maps" href="https://www.google.fr/maps/place/Av.+Maria+Antonia+Camargo+de+Oliveira,+1997,+Araraquara+-+SP,+14801-260,+Br%C3%A9sil/@-21.7881266,-48.174597,17z/data=!3m1!4b1!4m5!3m4!1s0x94b8f3e39ce7edd9:0xc77294e0db8fd7ce!8m2!3d-21.7881266!4d-48.1724083?hl=fr&authuser=0">
+                <p>Av Antonia Camargo de Oliveira, 1997</p>
+                <p>Centro | Araraquara | SP</p>
+              </a>
+            </div>
+            <div className="opening footer-info">
+              <IoIosTime className="footer-icon" />
+              <div className="open-time">
+                <p>Segunda à Sexta - Das 8h às 18h</p>
+                <p>Sábado - Das 8h às 13h</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="social-medias footer-container-item">
+          <h2>Siga nossas redes sociais!</h2>
+          <hr className="title-divider" />
+          <div className="links">
+            <LinkToFacebook />
+            <LinkToInstagram />
+            <LinkToLinkedin />
+          </div>
         </div>
       </div>
 

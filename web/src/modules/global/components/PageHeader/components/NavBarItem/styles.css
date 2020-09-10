@@ -10,6 +10,7 @@
 
 .page-link-item p {
   color: var(--color-text-title);
+  white-space: nowrap;
 }
 
 .page-title--modified {

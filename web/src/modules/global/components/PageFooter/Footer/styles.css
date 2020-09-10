@@ -1,5 +1,5 @@
 .page-footer {
-  width: 100vw;
+  width: 100%;
   display: grid;
   margin: 1.8rem auto 0;
   background-color: var(--color-primary-dark);
