@@ -2,11 +2,11 @@
   margin: 6rem 2rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .info-card {
-  width: 25%;
+  width: 30%;
   border-style: dashed;
   border-color: var(--color-line-in-gray);
   display: flex;
@@ -34,5 +34,19 @@
 .info-card p {
   color: var(--color-text-complement);
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 800px) {
+  .landing-infos {
+    justify-content: space-around;
+  }
+  
+  .info-card {
+    width: 25%;
+  }
+  
+  .info-card p {
+    font-size: 1.6rem;
+  }
 }

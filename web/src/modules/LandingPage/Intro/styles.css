@@ -8,9 +8,9 @@
 
 .intro h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.4rem;
   color: var(--color-text-title);
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .intro-description {
@@ -23,5 +23,23 @@
 .intro p {
   margin: 0.5rem 0;
   text-align: center;
-  max-width: 55%;
+  max-width: 80%;
+}
+
+@media (min-width: 800px) {
+  .intro h1 {
+    font-size: 4rem;
+    max-width: 90%;
+  }
+
+  .intro p {
+    max-width: 70%;
+  }
+
+}
+
+@media (min-width: 950px) {
+  .intro p {
+    font-size: 1.8rem;
+  }  
 }

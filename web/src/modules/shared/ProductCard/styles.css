@@ -43,3 +43,19 @@
 .product-card-link {
   text-decoration: none;
 }
+
+@media (min-width: 1200px) {
+  .product-card-link .description p {
+    font-size: 1.6rem;
+  }
+
+  .product-card-link .description h3 {
+    font-size: 3rem;
+    line-height: 3.2rem;
+    margin: 0.5rem 0 0.5rem;
+  }
+
+  .product-card-link .description {
+    padding: 1.6rem;
+  }
+}
