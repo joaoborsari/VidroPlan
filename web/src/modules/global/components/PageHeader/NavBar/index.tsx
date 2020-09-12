@@ -16,12 +16,12 @@ function NavBar() {
   }
 
   return (
-    <nav className="page-header">
+    <header className="page-header">
       <div className="top-bar-container">
 
         <h1 className="logo"><strong>VidroPlan</strong></h1>
 
-        <div className="top-bar-content">
+        <nav className="top-bar-content">
           <div className="top-bar-links">
             {
               navBarItems.map((item: NavBarItensProps) => {
@@ -36,10 +36,10 @@ function NavBar() {
           <div className="top-bar-contact">
             <LinkToWhatsapp />
           </div>
-        </div>
+        </nav>
         
       </div>
-    </nav>
+    </header>
   );
 }
 
