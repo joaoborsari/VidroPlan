@@ -21,23 +21,32 @@ function NavBar() {
 
         <h1 className="logo"><strong>VidroPlan</strong></h1>
 
+        <input type="checkbox" id="nav-toggle" className="nav-toggle"/>
         <nav className="top-bar-content">
-          <div className="top-bar-links">
+          
+          <ul className="top-bar-links">
             {
               navBarItems.map((item: NavBarItensProps) => {
-                return <NavBarItem key={ item.title } title={item.title} link={item.link} />
+                return <li key={ item.title } ><NavBarItem title={item.title} link={item.link} /></li>
               })
             }
-            <button className="contact-link-item" onClick={scrollToBottom}>
-              <p>Contato</p>
-            </button>
-          </div>
+            
+            <li>
+              <button className="contact-link-item" onClick={scrollToBottom}>
+                <p>Contato</p>
+              </button>
+            </li>
+
+            
+          </ul>
           
           <div className="top-bar-contact">
             <LinkToWhatsapp />
           </div>
         </nav>
-        
+        <label htmlFor="nav-toggle" className="nav-toggle-label" >
+          <span></span>
+        </label>
       </div>
     </header>
   );
