@@ -27,7 +27,7 @@ function Landing() {
           <Intro />
           <hr className="element-divider"/>
           <LandingProducts />
-          <hr/>
+          <hr className="element-divider"/>
           <LandingInfos />
         </div>
         
