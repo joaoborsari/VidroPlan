@@ -1,18 +1,54 @@
 .page-link-item {
-  padding: 0 1.6rem;
   text-decoration: none;
   transition: opacity 0.2s;
+  color: var(--color-text-title);
+  white-space: nowrap;
+  position: relative;
 }
 
 .page-link-item:hover {
   opacity: 0.6;
 }
 
-.page-link-item p {
+.page-link-item--modified {
+  font: 700 1.8rem Poppins;
+  text-decoration: none;
   color: var(--color-text-title);
+  position: relative;
 }
 
-.page-title--modified {
-  text-decoration: underline;
-  font: 700 1.8rem Poppins;
+@media (min-width: 800px) {
+  .page-link-item {
+    position: relative;
+  }
+
+  .page-link-item:hover {
+    opacity: unset;
+  }
+  
+  .page-link-item::before,
+  .page-link-item--modified::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: var(--color-primary-dark);
+    position: absolute;
+    top: -0.5em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transform-origin: left;
+    transition: transform ease-in-out 250ms;
+  }
+
+  .page-link-item:hover::before,
+  .page-link-item--modified:hover::before {
+    transform: scale(1, 1);
+  }
+
+  .page-link-item--modified {
+    font: 500 1.6rem Poppins ;
+    color: var(--color-primary-dark);
+  }
+
 }

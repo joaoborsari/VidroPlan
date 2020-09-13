@@ -1,25 +1,25 @@
 .page-footer {
-  width: 100vw;
+  width: 100%;
   display: grid;
   margin: 1.8rem auto 0;
   background-color: var(--color-primary-dark);
-  height: 2.6rem;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "copyright developed-by";
   padding: 0 6rem;
 }
 
 .copyright {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-self: center;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .developed-by {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-self: center;
+  text-align: center;
 }
 
 .developer a {
@@ -32,4 +32,26 @@
 .page-footer p {
   font: 400 1.1rem Poppins;
   color: var(--color-button-text);
+}
+
+@media (min-width: 800px) {
+  .page-footer {
+    width: 100%;
+    display: grid;
+    margin: 1.8rem auto 0;
+    background-color: var(--color-primary-dark);
+    height: 2.6rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "copyright developed-by";
+    padding: 0 6rem;
+  }
+  
+  .copyright {
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .developed-by {
+    justify-content: flex-end;
+  }
 }

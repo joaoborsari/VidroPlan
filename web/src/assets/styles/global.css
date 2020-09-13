@@ -17,6 +17,10 @@
   --color-box-base: #f7f7f7;
   --color-box-footer: #dfe6ed;
 
+  --page-width-small: 650px;
+  --page-width-medium: 800px;
+  --page-width-large: 950px;
+  
   font-size: 60%;
 }
 
@@ -27,8 +31,8 @@
 }
 
 html, body, #root {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 body {

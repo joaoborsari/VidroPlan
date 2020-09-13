@@ -62,5 +62,17 @@
 }
 
 .landing-main-content {
-  width: 80%;
+  width: 90%;
+}
+
+@media (min-width: 950px) {
+  .landing-main-content {
+    width: 80%;
+  }  
+}
+
+@media (min-width: 1300px) {
+  .landing-main-content {
+    width: 70%;
+  }  
 }
