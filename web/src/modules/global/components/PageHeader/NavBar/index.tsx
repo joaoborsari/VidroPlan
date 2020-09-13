@@ -12,7 +12,7 @@ function NavBar() {
     window.scrollTo({
       top: document.documentElement.scrollHeight,
       behavior: "smooth"
-     })
+    })
   }
 
   return (
@@ -20,7 +20,7 @@ function NavBar() {
       <div className="top-bar-container">
 
         <h1 className="logo"><strong>VidroPlan</strong></h1>
-
+        
         <input type="checkbox" id="nav-toggle" className="nav-toggle"/>
         <nav className="top-bar-content">
           

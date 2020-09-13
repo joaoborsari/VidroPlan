@@ -64,18 +64,20 @@
 
 .footer-container {
   display: grid;
-  align-items: baseline;
-  grid-template-columns: 1.5fr 1fr;
-  grid-auto-flow: column;
   margin: 0 2rem;
+}
+
+.contact {
+  grid-row: 1;
+  grid-column: 1;
 }
 
 .found-us {
   grid-column: 1;
-  grid-row: 1/3;
 }
 
 .social-medias {
+  grid-column: 1;
   margin: 1.4rem 0 0;
 }
 
@@ -108,6 +110,27 @@
   justify-content: center;
   flex-direction: row;
   height: 50%;
+}
+
+@media (min-width: 800px) {
+  .footer-container {
+    align-items: baseline;
+    grid-template-columns: 1.5fr 1fr;
+    grid-auto-flow: column;
+  }
+
+  .contact {
+    grid-row: 1;
+    grid-column: unset;
+  }
+  
+  .found-us {
+    grid-row: 1/3;
+  }
+
+  .social-medias {
+    grid-column: unset;
+  }
 }
 
 @media (min-width: 950px) {

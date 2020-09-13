@@ -61,7 +61,7 @@
 
 .top-bar-content {
   position: absolute;
-  top: 100%;
+  top: 99%;
   left: 0;
   background-color: var(--color-background-in-trasparent);
   box-shadow: 0 6px 6px -6px rgba(0,0,0,.2);
@@ -106,12 +106,31 @@
   outline: none;
   width: 100%;
   transition: opacity 0.2s;
+  position: relative;
 }
 
 .contact-link-item:hover {
   opacity: 0.6;
   cursor: pointer;
 }
+
+.contact-link-item::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background: var(--color-primary-dark);
+  position: absolute;
+  top: -0.5em;
+  left: 0;
+  right: 0;
+  transform: scale(0, 1);
+  transform-origin: left;
+  transition: transform ease-in-out 250ms;
+  }
+
+  .contact-link-item:hover::before {
+    transform: scale(1, 1);
+  }
 
 .top-bar-contact {
   display: none;
