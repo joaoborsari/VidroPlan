@@ -1,7 +1,8 @@
 
 .general-button {
   border-radius: 0.8rem;
-  background-color: var(--color-primary-light);
+  background-color: var(--color-secondary-dark);
+  /* background-color: var(--color-primary-light); */
   border: 0;
   height: 3.2rem;
   margin: 1rem 0;
