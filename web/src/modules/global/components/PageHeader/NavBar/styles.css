@@ -114,24 +114,6 @@
   cursor: pointer;
 }
 
-.contact-link-item::before {
-  content: '';
-  display: block;
-  height: 3px;
-  background: var(--color-primary-dark);
-  position: absolute;
-  top: -0.5em;
-  left: 0;
-  right: 0;
-  transform: scale(0, 1);
-  transform-origin: left;
-  transition: transform ease-in-out 250ms;
-  }
-
-  .contact-link-item:hover::before {
-    transform: scale(1, 1);
-  }
-
 .top-bar-contact {
   display: none;
 }
@@ -183,6 +165,24 @@
   .contact-link-item p {
     color: var(--color-text-title);
     text-align: center;
+  }
+
+  .contact-link-item::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: var(--color-primary-dark);
+    position: absolute;
+    top: -0.5em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transform-origin: left;
+    transition: transform ease-in-out 250ms;
+    }
+  
+  .contact-link-item:hover::before {
+    transform: scale(1, 1);
   }
 }
 

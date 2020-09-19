@@ -6,64 +6,36 @@
 }
 
 .about-us-content {
-  width: 90%;
+  width: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.text-divider {
-  border-top: 0.5px solid var(--color-primary-dark);
+.about-us-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.text-info {
-  /* width: 90%; */
-  margin: 0 2rem 2rem;
+.about-us-box {
+  margin: 0 2rem 3rem;
 }
 
-.text-info h1 {
-  color: var(--color-text-title);
-}
-
-.text-info p {
-  margin: 2rem 0;
-  text-align: justify;
+.about-us-image {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  background: url(../../assets/images/frontStore.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
 }
 
 .history {
   margin-top: 2rem;
-}
-
-.principles {
-  /* width: 90%; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem 0;
-}
-
-.principles-item {
-  width: 75%;
-  text-align: center;
-}
-
-.principles-item + .principles-item {
-  margin-top: 2rem;
-}
-
-.item-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-.item-icon {
-  width: 3rem;
-  height: 3rem;
-  color: var(--color-text-title);
-  margin-right: 1rem;
 }
 
 .our-products-button {
@@ -74,20 +46,17 @@
   .about-us-content {
     width: 90%;
   }
-
-  .principles {
-    margin: 0 2rem;
-    flex-direction: row;
-    align-items: stretch;
+   
+  .about-us-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .principles-item {
-    width: 30%;
+  .about-us-box {
+    display: flex;
+    margin: 5rem 2rem 2rem;
   }
-
-  .principles-item + .principles-item {
-    margin-top: unset;
-  }
+  
 }
 
 @media (min-width: 950px) {
