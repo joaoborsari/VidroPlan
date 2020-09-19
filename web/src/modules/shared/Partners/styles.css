@@ -1,26 +1,28 @@
-.partners-box {
-  margin: 4rem 2rem 2rem;
+.partners-grid {
+  margin: 0 2rem 2rem;
   display: flex;
   flex-direction: column;
-  align-self: center;
+  width: 90%;
 }
 
-.partners-box h1 {
-  text-align: center;
-  color: var(--color-text-title);
-  font-size: 4rem;
-}
-
-.partners-grid {
-  margin: 2rem 0 1rem;
+.partners-grid ul {
+  list-style: none;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-row-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
 }
 
-.partners-box img {
-  max-height: 75px;
-  max-width: 200px;
-  justify-self: center;
-  align-self: center;
+.partners-grid ul li {
+  font-size: 2rem;
+  line-height: 3rem;
+  white-space: nowrap;
+  margin-left: 0.5rem;
+}
+
+.blindex,
+.startemper,
+.artemper,
+.esquadrimax {
+  text-align: end;
+  margin-right: 0.5rem;
 }

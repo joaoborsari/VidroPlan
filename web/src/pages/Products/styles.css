@@ -1,0 +1,44 @@
+.products-page {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our-products {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.product-section h1 {
+  color: var(--color-text-title);
+}
+
+.glasses {
+  margin-top: 0;
+}
+
+.products-grid {
+  margin: 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-services {
+  margin: 2rem 0 2rem;
+}
+
+.our-partners {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0 5rem;
+}
