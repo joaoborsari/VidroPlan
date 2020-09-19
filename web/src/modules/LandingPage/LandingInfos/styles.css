@@ -39,7 +39,7 @@
 .info-card p {
   color: var(--color-text-complement);
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 @media (min-width: 650px) {

@@ -26,6 +26,12 @@
   max-width: 80%;
 }
 
+@media (min-width: 450px) {
+  .intro p {
+    max-width: 80%;
+  }
+}
+
 @media (min-width: 800px) {
   .intro h1 {
     font-size: 4rem;

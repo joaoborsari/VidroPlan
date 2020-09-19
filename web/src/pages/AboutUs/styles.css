@@ -1,0 +1,72 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.about-us-content {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-us-box {
+  margin: 0 2rem 3rem;
+}
+
+.about-us-image {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  background: url(../../assets/images/frontStore.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.history {
+  margin-top: 2rem;
+}
+
+.our-products-button {
+  margin: 2rem 0 6rem;
+}
+
+@media (min-width: 800px) {
+  .about-us-content {
+    width: 90%;
+  }
+   
+  .about-us-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-us-box {
+    display: flex;
+    margin: 5rem 2rem 2rem;
+  }
+  
+}
+
+@media (min-width: 950px) {
+  .about-us-content {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .about-us-content {
+    width: 70%;
+  }
+}

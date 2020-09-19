@@ -36,7 +36,6 @@ function NavBar() {
                 <p>Contato</p>
               </button>
             </li>
-
             
           </ul>
           
