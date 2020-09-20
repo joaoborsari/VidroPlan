@@ -6,32 +6,17 @@ export interface ProductProps {
 
 export const glassesProducts = [
   {
-    title: "Box e Vidros",
+    title: "Vidro temperado",
     description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     imageLink: "boxVidro.png"
   },
   {
-    title: "Películas de vidro",
+    title: "Vidro comum",
     description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     imageLink: "insufilm.jpg"
   },
   {
-    title: "Quadros e Molduras",
-    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    imageLink: "quadros.jpg"
-  },
-  {
-    title: "Box e Vidros",
-    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    imageLink: "boxVidro.png"
-  },
-  {
-    title: "Películas de vidro",
-    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    imageLink: "insufilm.jpg"
-  },
-  {
-    title: "Quadros e Molduras",
+    title: "Espelhos",
     description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     imageLink: "quadros.jpg"
   },
@@ -39,35 +24,35 @@ export const glassesProducts = [
 
 export const boardsProducts = [
   {
-    title: "Box e Vidros",
+    title: "Molduras",
     description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     imageLink: "boxVidro.png"
   },
   {
-    title: "Películas de vidro",
+    title: "Quadros",
     description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     imageLink: "insufilm.jpg"
-  },
-  {
-    title: "Quadros e Molduras",
-    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    imageLink: "quadros.jpg"
-  },
+  }
 ];
 
 export const alumniumProducts = [
   {
-    title: "Box e Vidros",
+    title: "Portas de alumínio",
     description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     imageLink: "boxVidro.png"
   },
   {
-    title: "Películas de vidro",
+    title: "Janelas de alumínio",
     description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     imageLink: "insufilm.jpg"
   },
   {
-    title: "Quadros e Molduras",
+    title: "Esquadria de alumínio",
+    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    imageLink: "quadros.jpg"
+  },
+  {
+    title: "Serralheria de alumínio",
     description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     imageLink: "quadros.jpg"
   },

@@ -6,8 +6,15 @@ import { ContactFooter } from '../components/PageFooter/ContactFooter';
 import { Footer } from '../components/PageFooter/Footer';
 
 export const Layout: FunctionComponent<any> = (props) => {
+  
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0
+    })
+  }
+
   return (
-    <div className="main-layout" >
+    <div onWaiting={goToTop} className="main-layout" >
         <div className="header">
           <NavBar />
         </div>

@@ -2,7 +2,6 @@
   margin: 0 2rem 2rem;
   display: flex;
   flex-direction: column;
-  width: 90%;
 }
 
 .partners-grid ul {
@@ -25,4 +24,61 @@
 .esquadrimax {
   text-align: end;
   margin-right: 0.5rem;
+}
+
+@media (min-width: 800px) {
+  .partners-grid ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "blindex artemper aldec sandoli ."
+                          "startemper alumperfis esquadrimax e-m e-m";
+  }
+
+  .sandoli,
+  .blindex,
+  .aldec,
+  .artemper,
+  .esquadrimax {
+    text-align: start;
+    margin-right: 0.5rem;
+  }
+  
+  .startemper,
+  .esquadrimax,
+  .alumperfis,
+  .espaco-molduras {
+    text-align: end;
+  }
+
+  .blindex {
+    grid-area: blindex;
+  }
+
+  .artemper {
+    grid-area: artemper;
+  }
+  
+  .aldec {
+    grid-area: aldec;
+  }
+
+  .espaco-molduras {
+    grid-area: e-m;
+  }
+
+  .startemper {
+    grid-area: startemper;
+  }
+
+  .alumperfis {
+    grid-area: alumperfis;
+  }
+
+  .esquadrimax {
+    grid-area: esquadrimax;
+  }
+
+  .sandoli {
+    grid-area: sandoli;
+  }
 }
