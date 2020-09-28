@@ -4,7 +4,6 @@ import './styles.css';
 
 import { Layout } from '../../modules/global/Layout';
 import { GeneralButton } from '../../modules/shared/GeneralButton';
-import { FaChartLine, FaCrosshairs, FaHandshake } from "react-icons/fa";
 import { Principles } from '../../modules/AboutUsPage/Principles';
 import { TextInfo } from '../../modules/AboutUsPage/TextInfo';
 

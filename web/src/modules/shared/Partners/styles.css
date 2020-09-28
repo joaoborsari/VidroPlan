@@ -1,26 +1,84 @@
-.partners-box {
-  margin: 4rem 2rem 2rem;
+.partners-grid {
+  margin: 0 2rem 2rem;
   display: flex;
   flex-direction: column;
-  align-self: center;
 }
 
-.partners-box h1 {
-  text-align: center;
-  color: var(--color-text-title);
-  font-size: 4rem;
-}
-
-.partners-grid {
-  margin: 2rem 0 1rem;
+.partners-grid ul {
+  list-style: none;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-row-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
 }
 
-.partners-box img {
-  max-height: 75px;
-  max-width: 200px;
-  justify-self: center;
-  align-self: center;
+.partners-grid ul li {
+  font-size: 2rem;
+  line-height: 3rem;
+  white-space: nowrap;
+  margin-left: 0.5rem;
+}
+
+.blindex,
+.startemper,
+.artemper,
+.esquadrimax {
+  text-align: end;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 800px) {
+  .partners-grid ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "blindex artemper aldec sandoli ."
+                          "startemper alumperfis esquadrimax e-m e-m";
+  }
+
+  .sandoli,
+  .blindex,
+  .aldec,
+  .artemper,
+  .esquadrimax {
+    text-align: start;
+    margin-right: 0.5rem;
+  }
+  
+  .startemper,
+  .esquadrimax,
+  .alumperfis,
+  .espaco-molduras {
+    text-align: center;
+  }
+
+  .blindex {
+    grid-area: blindex;
+  }
+
+  .artemper {
+    grid-area: artemper;
+  }
+  
+  .aldec {
+    grid-area: aldec;
+  }
+
+  .espaco-molduras {
+    grid-area: e-m;
+  }
+
+  .startemper {
+    grid-area: startemper;
+  }
+
+  .alumperfis {
+    grid-area: alumperfis;
+  }
+
+  .esquadrimax {
+    grid-area: esquadrimax;
+  }
+
+  .sandoli {
+    grid-area: sandoli;
+  }
 }

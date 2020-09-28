@@ -12,7 +12,10 @@ export const TextInfo:React.FC<TextProps> = (props) => {
     <div className="text-info">
       <h1>{props.title}</h1>
       <hr className="text-divider" />
-      <p>{props.description}</p>
+      {
+        props.description !== "" &&
+        <p>{props.description}</p>
+      }
     </div>
   );
 }

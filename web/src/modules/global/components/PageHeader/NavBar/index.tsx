@@ -2,9 +2,9 @@ import React from 'react';
 
 import './styles.css';
 
-import { navBarItems, NavBarItensProps } from '../constants';
 import { NavBarItem } from '../components/NavBarItem';
 import { LinkToWhatsapp } from '../../../../shared/SocialMediaContactLink';
+import { navBarItems, NavBarItensProps } from '../constants/navbarItems';
 
 function NavBar() {
 
