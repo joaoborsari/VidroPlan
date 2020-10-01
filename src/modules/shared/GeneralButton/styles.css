@@ -1,0 +1,33 @@
+.general-button {
+  border-radius: 1rem;
+  background-color: var(--color-secondary-dark);
+  /* background-color: var(--color-primary-light); */
+  border: 0;
+  height: 3.6rem;
+  margin: 1rem 0;
+  transition: background-color 0.2s;
+}
+
+.general-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.button-link {
+  padding: 1.6rem;
+  font: 700 1.7rem Archivo;
+  text-decoration: none;
+  color: var(--color-button-text);
+}
+
+@media (min-width: 1200px) {
+  .general-button {
+    height: 4rem;
+    margin: 2rem 0;
+  }
+  
+  .button-link {
+    padding: 2rem;
+    font: 700 1.8rem Archivo;
+  }
+}

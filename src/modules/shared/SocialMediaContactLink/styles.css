@@ -1,0 +1,44 @@
+.whatsapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  color: var(--color-primary-dark);
+  margin-left: 2rem;
+  white-space: nowrap;
+}
+
+.whatsapp-icon {  
+  color: #25d366;
+  margin: 0 0.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.whatsapp:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  color: var(--color-primary-dark);
+  margin: 0.5rem 1rem;
+}
+
+.social-media-icon {  
+  color: var(--color-primary-dark);
+  margin: 0 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.social-media:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}

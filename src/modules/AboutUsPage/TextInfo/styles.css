@@ -1,0 +1,17 @@
+.text-divider {
+  border-top: 0.5px solid var(--color-primary-dark);
+}
+
+.text-info {
+  /* width: 90%; */
+  margin: 0 2rem 2rem;
+}
+
+.text-info h1 {
+  color: var(--color-text-title);
+}
+
+.text-info p {
+  margin: 2rem 0;
+  text-align: justify;
+}

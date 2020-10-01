@@ -1,0 +1,84 @@
+.partners-grid {
+  margin: 0 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.partners-grid ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.partners-grid ul li {
+  font-size: 2rem;
+  line-height: 3rem;
+  white-space: nowrap;
+  margin-left: 0.5rem;
+}
+
+.blindex,
+.startemper,
+.artemper,
+.esquadrimax {
+  text-align: end;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 800px) {
+  .partners-grid ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "blindex artemper aldec sandoli ."
+                          "startemper alumperfis esquadrimax e-m e-m";
+  }
+
+  .sandoli,
+  .blindex,
+  .aldec,
+  .artemper,
+  .esquadrimax {
+    text-align: start;
+    margin-right: 0.5rem;
+  }
+  
+  .startemper,
+  .esquadrimax,
+  .alumperfis,
+  .espaco-molduras {
+    text-align: center;
+  }
+
+  .blindex {
+    grid-area: blindex;
+  }
+
+  .artemper {
+    grid-area: artemper;
+  }
+  
+  .aldec {
+    grid-area: aldec;
+  }
+
+  .espaco-molduras {
+    grid-area: e-m;
+  }
+
+  .startemper {
+    grid-area: startemper;
+  }
+
+  .alumperfis {
+    grid-area: alumperfis;
+  }
+
+  .esquadrimax {
+    grid-area: esquadrimax;
+  }
+
+  .sandoli {
+    grid-area: sandoli;
+  }
+}
