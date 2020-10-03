@@ -28,15 +28,24 @@ export const ContactFooter = () => {
           <div className="contact-infos">
             <div className="footer-info">
               <FaPhoneAlt className="footer-icon" />
-              <p>(16) 3336-9878</p>
+              <a title="Ligar" href="tel:01633369878">
+                <p>(16) 3336-9878</p>
+              </a>
             </div>
             <div className="footer-info">
               <RiWhatsappLine className="footer-icon" />
-              <p>(16) 99792-8737</p>
+              <a 
+                href="https://wa.me/+5516997928737"
+                title="Abrir conversa no WhatsApp"
+              >
+                  <p>(16) 99792-8737</p>
+              </a>
             </div>
             <div className="footer-info">
               <MdEmail className="footer-icon" />
-              <a title="Enviar email" href="mailto:vidroplan2012@hotmail.com">vidroplan2012@hotmail.com</a>
+              <a title="Enviar email" href="mailto:vidroplan2012@hotmail.com">
+                <p>vidroplan2012@hotmail.com</p>
+              </a>
             </div>
           </div>
         </div>
