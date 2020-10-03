@@ -1,7 +1,7 @@
 .product-card {
   max-width: 80%;
   border-radius: 16px;
-  box-shadow: -15px 15px 45px -5px rgb(0,0,0,.2);
+  box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
   background-color: var(--color-box-base);
   overflow: overlay;
 }
