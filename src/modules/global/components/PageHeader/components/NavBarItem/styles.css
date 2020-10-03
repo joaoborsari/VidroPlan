@@ -4,6 +4,7 @@
   color: var(--color-text-title);
   white-space: nowrap;
   position: relative;
+  font-size: 1.8rem;
 }
 
 .page-link-item:hover {
@@ -11,7 +12,7 @@
 }
 
 .page-link-item--modified {
-  font: 700 1.8rem Poppins;
+  font-size: 1.8rem;
   text-decoration: none;
   color: var(--color-text-title);
   position: relative;
@@ -47,7 +48,6 @@
   }
 
   .page-link-item--modified {
-    font: 500 1.6rem Poppins ;
     color: var(--color-primary-dark);
   }
 

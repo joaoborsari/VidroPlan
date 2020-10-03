@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 3rem 0 2rem;
+  margin: 4rem 0;
 }
 
 @media (min-width: 800px) {
@@ -27,6 +27,5 @@
   .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
   }
 }

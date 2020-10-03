@@ -5,6 +5,7 @@ import './styles.css';
 import { NavBarItem } from '../components/NavBarItem';
 import { LinkToWhatsapp } from '../../../../shared/SocialMediaContactLink';
 import { navBarItems, NavBarItensProps } from '../constants/navbarItems';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
 
@@ -19,7 +20,12 @@ function NavBar() {
     <header className="page-header">
       <div className="top-bar-container">
 
-        <h1 className="logo"><strong>VidroPlan</strong></h1>
+        <div className="logo-container">
+          <div className="surprise logo-properties"></div>
+          <Link to="/" className="logo-link" title="Início" >
+            <div className="logo logo-properties"></div>
+          </Link>
+        </div>
         
         <input type="checkbox" id="nav-toggle" className="nav-toggle"/>
         <nav className="top-bar-content">

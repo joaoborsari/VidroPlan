@@ -7,6 +7,7 @@
   border-width: 0.5px;
   padding: 1.2rem 0;
   position: relative;
+  font-size: 1.8rem;
 }
 
 .shape-top {
@@ -40,6 +41,15 @@
 
 .contact-footer-container .title-divider {
   margin: 0.5rem 0 1.5rem;
+}
+
+
+.contact-footer-container h1 {
+  font-size: 4rem;
+}
+
+.contact-footer-container h2 {
+  font-size: 3rem;
 }
 
 .contact-footer-container h1, h2 {
@@ -131,13 +141,11 @@
   .social-medias {
     grid-column: unset;
   }
+
 }
 
 @media (min-width: 950px) {
-  .footer-info {
-    font-size: 1.6rem;
-  }
-
+  
   .contact-footer-container {
     display: flex;
     justify-content: center;
@@ -172,7 +180,7 @@
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1500px) {
   .footer-container {
     width: 70%;
   }
