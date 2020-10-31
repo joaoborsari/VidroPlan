@@ -15,7 +15,7 @@ export const LandingProducts = () => {
         <ProductCard 
           title="Box e Vidros"
           description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-          image="boxVidro.png"
+          image="boxvidro.png"
         />
         <ProductCard  
           title="Películas de vidro"

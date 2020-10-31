@@ -6,7 +6,7 @@
   background-color: var(--color-background-in-trasparent);
   box-shadow: 0 0px 6px 0px rgba(0,0,0,.2);
   align-items: center;
-  height: 90px;
+  height: 100px;
 }
 
 .logo-container {
@@ -15,9 +15,9 @@
 }
 
 .logo-properties {
-  width: 120px;
-  min-height: 85px;
-  background: url(../../../../../assets/images/logoTransparentDark.svg);
+  width: 130px;
+  min-height: 80px;
+  background: url(../../../../../assets/images/logo.svg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

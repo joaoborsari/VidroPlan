@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 
 import './styles.css';
 
-import { FaAngleDown, FaAngleUp } from 'react-icons/fa';
+import { FaAngleRight, FaAngleDown } from 'react-icons/fa';
 
 import { TextInfo } from '../../modules/AboutUsPage/TextInfo';
 import { Layout } from "../../modules/global/Layout";
 import { alumniumProducts, boardsProducts, glassesProducts, ProductProps } from '../../modules/ProductsPage/constants/products';
 import { OurServices } from '../../modules/ProductsPage/OurServices';
-import { Partners } from '../../modules/shared/Partners';
 import { ProductCard } from '../../modules/shared/ProductCard';
 
 
@@ -32,9 +31,9 @@ export const Products = () => {
               <button onClick={() => setShowGlasses(!showGlasses)}
               >
                 {
-                  showGlasses ? 
+                  showGlasses ?  
                   <FaAngleDown title="Esconder" className="toggle-button" /> : 
-                  <FaAngleUp title="Mostrar" className="toggle-button"  />
+                  <FaAngleRight title="Mostrar" className="toggle-button"  />
                 }
               </button>
             </div>
@@ -65,7 +64,7 @@ export const Products = () => {
                 {
                   showBoards ? 
                   <FaAngleDown title="Esconder" className="toggle-button" /> : 
-                  <FaAngleUp title="Mostrar" className="toggle-button"  />
+                  <FaAngleRight title="Mostrar" className="toggle-button"  />
                 }
               </button>
             </div>
@@ -96,7 +95,7 @@ export const Products = () => {
                 {
                   showAlumniums ? 
                   <FaAngleDown title="Esconder" className="toggle-button" /> : 
-                  <FaAngleUp title="Mostrar" className="toggle-button"  />
+                  <FaAngleRight title="Mostrar" className="toggle-button"  />
                 }
               </button>
             </div>
@@ -126,15 +125,6 @@ export const Products = () => {
           />
           <OurServices />
         </div>
-
-        <div className="our-partners">
-          <TextInfo
-            title="Nossos parceiros"
-            description=""
-          />
-          <Partners />
-        </div>
-        
       </div>
     </Layout>
   );

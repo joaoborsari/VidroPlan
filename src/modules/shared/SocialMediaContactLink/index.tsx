@@ -32,7 +32,7 @@ export const LinkToFacebook = () => {
 export const LinkToInstagram = () => {
   return (
     <a 
-      href="https://www.instagram.com/"
+      href="https://www.instagram.com/vidroplan_araraquara/"
       className="social-media"
       title="Abrir no Instagram"
     >
@@ -44,7 +44,7 @@ export const LinkToInstagram = () => {
 export const LinkToLinkedin = () => {
   return (
     <a 
-      href="https://www.linkedin.com/"
+      href="https://www.linkedin.com/company/vidroplanararaquara/"
       className="social-media"
       title="Abrir no Linkedin"
     >
