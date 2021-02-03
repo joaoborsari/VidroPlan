@@ -17,7 +17,7 @@
 .logo-properties {
   width: 130px;
   min-height: 80px;
-  background: url(../../../../../assets/images/logo.svg);
+  background: url(../../../../../assets/images/logo/logo.svg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -115,19 +115,6 @@
 
 .top-bar-contact {
   display: none;
-}
-
-.surprise {
-  width: 275px;
-  min-height: 90px;
-  top: -8px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: url(../../../../../assets/images/easterEgg.svg);
-  background-size: cover;
-  position: absolute;
-  display: none;
-  background-color: var(--color-background-in-trasparent);
 }
 
 @media (min-width: 800px) {
