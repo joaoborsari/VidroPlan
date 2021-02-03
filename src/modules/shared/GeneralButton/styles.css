@@ -1,15 +1,16 @@
 .general-button {
   border-radius: 1rem;
   background-color: var(--color-secondary-dark);
-  /* background-color: var(--color-primary-light); */
   border: 0;
   height: 3.6rem;
   margin: 1rem 0;
-  transition: background-color 0.2s;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  transition: box-shadow 0.3s;
 }
 
 .general-button:hover {
-  opacity: 0.6;
+  box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  /* opacity: 0.9; */
   cursor: pointer;
 }
 

@@ -21,7 +21,6 @@ function NavBar() {
       <div className="top-bar-container">
 
         <div className="logo-container">
-          <div className="surprise logo-properties"></div>
           <Link to="/" className="logo-link" title="Início" >
             <div className="logo logo-properties"></div>
           </Link>

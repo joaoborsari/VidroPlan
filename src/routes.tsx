@@ -5,6 +5,7 @@ import Landing from './pages/Landing';
 import { AboutUs } from './pages/AboutUs';
 import { Products } from './pages/Products';
 import ScrollToTop from './modules/global/components/ScrollToTop';
+import { Galery } from './pages/Galery';
 
 function Routes() {
   return (
@@ -14,7 +15,7 @@ function Routes() {
         <Route path="/" exact component={ Landing } />
         <Route path="/about-us" exact component={ AboutUs } />
         <Route path="/products" exact component={ Products } />
-        <Route path="/galery" exact component={ AboutUs } />
+        <Route path="/galery" exact component={ Galery } />
       </Switch>   
     </BrowserRouter>
   )
