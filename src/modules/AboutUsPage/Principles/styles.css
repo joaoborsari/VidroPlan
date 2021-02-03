@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .item-icon {
@@ -29,6 +29,9 @@
   margin-right: 1rem;
 }
 
+.item-description {
+  margin: auto;
+}
 
 @media (min-width: 800px) {
   .principles {

@@ -20,7 +20,7 @@ export const LinkToWhatsapp = () => {
 export const LinkToFacebook = () => {
   return (
     <a 
-      href="https://www.facebook.com/"
+      href="https://www.facebook.com/VidroplanCasaDecor"
       className="social-media"
       title="Abrir no Facebook"
     >

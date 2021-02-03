@@ -60,7 +60,7 @@
 .footer-info {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   margin: 0.5rem 0.2rem;
   padding: 0 0.5rem;
 }
@@ -68,8 +68,8 @@
 .footer-icon {
   color: var(--color-primary-dark);
   margin: 0 0.5rem;
-  min-height: 2rem;
-  min-width: 2rem;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
 }
 
 .footer-container {

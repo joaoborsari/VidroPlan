@@ -1,0 +1,22 @@
+.item-wraper {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item {
+  max-width: 90%;
+  border-radius: 16px;
+  box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  background-color: var(--color-box-base);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 0 4rem;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
